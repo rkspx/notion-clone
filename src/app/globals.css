@@ -29,8 +29,8 @@ html {
 
 body {
   color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--bg-dark);
+  font-family: sans-serif;
 }
 
 h1 {
@@ -38,4 +38,8 @@ h1 {
     font-size: 30px;
     line-height: 1.2;
     font-weight: 600;
+}
+
+.hide-scrollbar {
+    scrollbar-width: none;
 }
