@@ -14,6 +14,13 @@
   }
 }
 
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    font-family: sans-serif
+}
+
 body {
   color: var(--foreground);
   background: var(--background);
